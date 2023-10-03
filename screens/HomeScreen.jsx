@@ -26,15 +26,17 @@ function HomeScreen() {
             }}
           ></Card.Cover>
         </Card.Content>
-        <List.Section>
-          <List.Accordion title = 'What is this for?'>
-            <List.Item title = 'We celebrate the birth of the potat from the Holy Potat.' />
+        <List.Section >
+          <List.Accordion title = 'What is this for?' >
+            <List.Item 
+            title = 'We celebrate the birth of the potat from the Holy Potat.' 
+            titleNumberOfLines={2}/>
           </List.Accordion>
           <List.Accordion title = 'When will this be?'>
-            <List.Item title = 'The first of December is the birthday of the potat.' />
+            <List.Item title = 'The first of December is the birthday of the potat.' titleNumberOfLines={2}/>
           </List.Accordion>
-          <List.Accordion title = 'Where will this be?'>
-            <List.Item title = 'Wherever there are followers of the potat.' />
+          <List.Accordion  title = 'Where will this be?'>
+            <List.Item  title = 'Wherever there are followers of the potat.' titleNumberOfLines={2}/>
           </List.Accordion>
         </List.Section>
       </ScrollView>
